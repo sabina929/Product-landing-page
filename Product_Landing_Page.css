@@ -50,25 +50,17 @@ html {
     margin-right: 150px;
     opacity: 0;
     animation: fade 3s ease 0.3s forwards;
-
 }
 
 @keyframes fade {
     from {
         opacity: 0;
-
     }
 
     to {
         opacity: 1;
-
     }
 }
-
-/* #banner-image:hover {
-    transform: scale(1.02);
-} */
-
 
 .head {
     margin-left: 140px;
@@ -113,7 +105,6 @@ nav li {
     margin-right: 50px;
 }
 
-
 .nav-link {
     color: rgb(39, 61, 255);
     text-decoration: none;
@@ -139,15 +130,12 @@ nav li {
     clear: both;
 }
 
-
 #form {
     margin-top: 30px;
     opacity: 0;
     animation: fadeDown 0.8s ease-out 0.8s forwards;
     z-index: 1;
 }
-
-
 
 #email {
     height: 35px;
@@ -159,7 +147,6 @@ nav li {
 
 #email:hover {
     box-shadow: 0 0 15px rgba(255, 204, 213, 0.5);
-
 }
 
 #submit {
@@ -184,16 +171,12 @@ nav li {
 #features {
     display: flex;
     justify-content: space-around;
-
     clear: both;
-
     width: 92vw;
     font-size: 14px;
     padding-top: 150px;
     margin: 100px auto;
 }
-
-
 
 #features p {
     text-align: center;
@@ -201,7 +184,6 @@ nav li {
 }
 
 #box-1 {
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     border: 1.5px solid rgb(23, 202, 133);
@@ -225,7 +207,6 @@ nav li {
 }
 
 #box-2 {
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     border: 1.5px solid rgb(255, 206, 71);
@@ -249,7 +230,6 @@ nav li {
 }
 
 #box-3 {
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     border: 1.5px solid rgb(39, 61, 255);
@@ -267,7 +247,6 @@ nav li {
 }
 
 #box-3:hover {
-
     transform: scale(1.05);
     border: 1.5px solid rgba(39, 61, 255, 0);
     box-shadow: 0 0 30px rgba(39, 61, 255, 0.1);
@@ -295,7 +274,6 @@ nav li {
 }
 
 /* video {
-
     border: 2px dashed rgb(151, 151, 151);
 } */
 
@@ -365,7 +343,6 @@ hr {
         padding-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .logo {
@@ -375,7 +352,6 @@ hr {
         font-size: 18px;
         color: rgb(95, 95, 95);
         padding: 10px;
-
     }
 
     .nav-link {
@@ -390,14 +366,11 @@ hr {
     }
 
     #features {
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 50px;
-
         margin: 100px auto;
     }
-
 }
 
 @media (max-width: 1450px) {
@@ -414,15 +387,12 @@ hr {
     }
 
     #contactus {
-
         padding: 270px 20px 60px 50px;
-
     }
 }
 
 @media (max-width: 1350px) {
     #banner-image {
-
         margin-top: 150px;
         float: right;
         width: 280px;
@@ -437,9 +407,7 @@ hr {
     }
 
     h1 {
-
         font-size: 40px;
-
     }
 
     .p {
@@ -458,9 +426,7 @@ hr {
     #features {
         display: flex;
         justify-content: space-around;
-
         clear: both;
-
         width: 92vw;
         font-size: 14px;
         padding-top: 80px;
@@ -468,9 +434,7 @@ hr {
     }
 
     #contactus {
-
         padding: 270px 20px 60px 50px;
-
     }
 }
 
@@ -493,12 +457,9 @@ hr {
     }
 
     #features {
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 20px;
-
-
     }
 
 }
@@ -537,12 +498,9 @@ hr {
     }
 
     #features {
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 20px;
-
-
     }
 
 }
@@ -550,68 +508,51 @@ hr {
 @media (max-width:770px) {
 
     #features {
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 20px;
     }
 
     #box-3 {
-
-
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 380px;
-
     }
 
     #contactus {
-
         padding: 270px 20px 60px 50px;
-
     }
 }
 
 @media (max-width: 600px) {
 
     #features {
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 20px;
     }
 
     #box-3 {
-
         display: grid;
         grid-template-rows: 1fr 1fr;
-
         width: 250px;
         height: 250px;
         padding: 21px;
         margin: 20px;
-
-
     }
 
     #contactus {
-
         padding: 270px 20px 60px 50px;
-
     }
 }
 
 @media (max-width: 600px) {
     #myBtn {
-        ;
         bottom: 65px;
         right: 30px;
-
     }
 
     #contactus {
-
         padding: 270px 25px 60px 38px;
-
     }
 }
