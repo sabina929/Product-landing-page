@@ -114,16 +114,25 @@ nav li {
 }
 
 .contact-us {
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
     color: rgb(23, 202, 133);
-    border-bottom: 2px solid rgb(255, 204, 213);
+    border: 2px solid rgb(255, 206, 71);
+    border-radius: 50px;
+
+}
+
+.contact-us:hover {
+    background-color: rgba(245, 245, 245, 0.5);
+    /* color: rgb(23, 202, 133);
+    border: 2px solid rgb(255, 206, 71);
+    border-radius: 50px; */
 }
 
 .nav-link:hover {
     transition: color 0.3s ease 0.045s;
     /* background-color: rgb(245, 245, 245); */
     color: rgb(23, 202, 133);
-    border-bottom: 2px solid rgb(255, 204, 213);
+    border-bottom: 2px solid rgb(255, 206, 71);
 }
 
 .form {
