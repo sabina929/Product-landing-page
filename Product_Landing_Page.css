@@ -315,10 +315,10 @@ hr {
     color: rgb(39, 61, 255) !important;
 }
 
-.fas.fa-arrow-circle-up:active {
+/* .fas.fa-arrow-circle-up:active {
     transform: scale(1.04);
     color: rgb(39, 61, 255) !important;
-}
+} */
 
 @media (max-width: 1450px) {
     #banner-image {
