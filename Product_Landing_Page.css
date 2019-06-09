@@ -31,6 +31,7 @@ html {
 }
 
 
+
 #banner-image {
     margin: 20px;
     margin-top: 180px;
@@ -45,12 +46,16 @@ html {
 @keyframes fade {
     from {
         opacity: 0;
+
     }
 
     to {
         opacity: 1;
+
     }
 }
+
+
 
 .head {
     margin-left: 140px;
@@ -108,6 +113,7 @@ nav li {
     color: rgb(1, 156, 62);
     border: 2px solid rgb(253, 200, 0);
     border-radius: 50px;
+
 }
 
 .contact-us:hover {
@@ -133,6 +139,7 @@ nav li {
 }
 
 
+
 #email {
     height: 35px;
     width: 250px;
@@ -143,6 +150,7 @@ nav li {
 
 #email:hover {
     box-shadow: 0 0 15px rgba(232, 58, 121, 0.3);
+
 }
 
 #submit {
@@ -159,7 +167,7 @@ nav li {
 }
 
 #submit:hover {
-    box-shadow: 0 0 15px rgba(0, 93, 160, 0.3);
+    box-shadow: 0 0 15px rgba(0, 93, 160, 0.2);
     background: rgb(0, 93, 160);
     transition: all 0.3s ease 0.045s;
 }
@@ -262,6 +270,8 @@ nav li {
     margin-bottom: 80px;
 }
 
+
+
 hr {
     opacity: 0.7;
 }
@@ -274,6 +284,7 @@ hr {
 }
 
 .footer {
+
     width: 250px;
 }
 
@@ -372,6 +383,7 @@ footer>span>ul>li>a:hover {
     }
 
     #features {
+
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 50px;
@@ -435,7 +447,9 @@ footer>span>ul>li>a:hover {
     #features {
         display: flex;
         justify-content: space-around;
+
         clear: both;
+
         width: 92vw;
         font-size: 14px;
         padding-top: 80px;
@@ -517,6 +531,7 @@ footer>span>ul>li>a:hover {
     }
 
     #features {
+
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 20px;
@@ -531,19 +546,25 @@ footer>span>ul>li>a:hover {
 @media (max-width:770px) {
 
     #features {
+
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 20px;
     }
 
     #box-3 {
+
+
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 380px;
+
     }
 
     #contactus {
+
         padding: 50px 20px 60px 50px;
+
     }
 
     #copy {
@@ -554,6 +575,7 @@ footer>span>ul>li>a:hover {
 @media (max-width: 600px) {
 
     #features {
+
         margin-top: -30px;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -561,18 +583,22 @@ footer>span>ul>li>a:hover {
     }
 
     #box-3 {
+
         display: grid;
         grid-template-rows: 1fr 1fr;
+
         width: 220px;
         height: 220px;
         padding: 15px;
         margin: 20px;
+
     }
 
     #box-1 {
         width: 220px;
         height: 220px;
         padding: 15px;
+
     }
 
     #box-2 {
@@ -593,12 +619,16 @@ footer>span>ul>li>a:hover {
     }
 
     #myBtn {
+
         bottom: 65px;
         right: 30px;
+
     }
 
     #contactus {
+
         padding: 50px 25px 60px 38px;
+
     }
 
     iframe {
